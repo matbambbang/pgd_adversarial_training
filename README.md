@@ -33,13 +33,12 @@ This would make the repository named `pgd_adversarial_training`.
 Move to this repository, and follow below descriptions.
 
 ## Description
-![CIFAR10](/images/SSP-cifar.png)
 
 This module is build for [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html).
 For each task, I implemented different networks.
 Please see `model/mnist.py` and `model/cifar10.py`.
 
-## Train the model
+## Training
 **I would upload the sample trained model soon. The below descriptions are for running on scratch.**
 
 For train the model, use `cifar10_train.py`.
@@ -72,7 +71,7 @@ In the table below, we describe the arguments that you can control:
 
 After training your model, the models and logs are saved in `experiments/${save_path}`.
 
-## Attack model
+## Attack the trained model
 
 After the model is trained, you can attack your model with attack algorithms.
 This repository supports `l_inf` bounded attack, with using sign of gradients.
