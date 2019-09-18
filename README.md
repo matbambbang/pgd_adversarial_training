@@ -39,7 +39,7 @@ For each task, I implemented different networks.
 Please see `model/mnist.py` and `model/cifar10.py`.
 
 ## Training
-**I would upload the sample trained model soon. The below descriptions are for running on scratch.**
+**I would upload the sample trained model soon.**
 
 For train the model, use `cifar10_train.py`.
 
